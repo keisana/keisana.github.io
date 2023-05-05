@@ -1,6 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+
+# 記事一覧
+
+{% for post in site.posts %}
+- [{{ post.date | date: "%Y年%m月%d日" }}]({{ post.url }}) - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+[RSSフィードを購読する](/feed.xml)
