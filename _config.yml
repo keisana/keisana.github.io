@@ -7,3 +7,8 @@ theme: minima
 timezone: "Asia/Tokyo"
 paginate: 5
 paginate_path: "/page:num/"
+minima:
+  skin: default
+  show_author: true
+  show_email: true
+  show_description: true
