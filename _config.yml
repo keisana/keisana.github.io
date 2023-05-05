@@ -5,3 +5,5 @@ description: "Your blog description"
 url: "https://keisana.github.io" 
 theme: minima
 timezone: "Asia/Tokyo"
+paginate: 5
+paginate_path: "/page:num/"
