@@ -1,10 +1,6 @@
----
-layout: home
----
-
-記事一覧
 {% for post in site.posts %}
-{{ post.date | date: "%Y年%m月%d日" }} - [{{ post.title }}]({{ post.url }})
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <small>{{ post.date | date_to_string }}</small>
+  </li>
 {% endfor %}
-
-[**RSSフィードを購読する**]({{ site.baseurl }}/feed.xml)
