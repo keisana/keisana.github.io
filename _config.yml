@@ -1,7 +1,7 @@
 title: "IT Blog Title"
-author: "KEI" # ここにあなたの名前を入力してください
+author: "KEI" 
 email: "your-email@example.com"
-description: "Your blog description" # ここにブログの説明を入力してください
-url: "https://keisana.github.io" # ここをあなたのGitHub PagesのURLに変更してください
+description: "Your blog description" 
+url: "https://keisana.github.io" 
 theme: minima
 timezone: "Asia/Tokyo"
