@@ -1,3 +1,10 @@
+---
+layout: home
+---
+
+IT Blog Title
+[About]({{ site.url }}/about)
+
 {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
